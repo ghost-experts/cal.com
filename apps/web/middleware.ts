@@ -19,6 +19,7 @@ const V2_WHITELIST = [
   "/apps",
   "/success",
   "/auth/login",
+  "/auth/singup",
 ];
 
 // For pages

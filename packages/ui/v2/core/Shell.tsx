@@ -10,6 +10,7 @@ import dayjs from "@calcom/dayjs";
 import { useIsEmbed } from "@calcom/embed-core/embed-iframe";
 import ImpersonatingBanner from "@calcom/features/ee/impersonation/components/ImpersonatingBanner";
 import HelpMenuItem from "@calcom/features/ee/support/components/HelpMenuItem";
+import Upgrade from "@calcom/features/users/components/Upgrade";
 import UserV2OptInBanner from "@calcom/features/users/components/UserV2OptInBanner";
 import CustomBranding from "@calcom/lib/CustomBranding";
 import classNames from "@calcom/lib/classNames";
@@ -713,10 +714,9 @@ function SideBar() {
       {/* TODO @Peer_Rich: reintroduce in 2.1
       <Tips />
       */}
-      {/* Save it for next preview version
-       <div className="mb-4 hidden lg:block">
-        <UserV2OptInBanner />
-      </div> */}
+      <div className="mb-4 hidden lg:block">
+        <Upgrade />
+      </div>
 
       <div data-testid="user-dropdown-trigger">
         <span className="hidden lg:inline">

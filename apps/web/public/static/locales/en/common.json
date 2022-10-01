@@ -637,6 +637,8 @@
   "availability_title": "{{availabilityTitle}} | Availability",
   "edit_availability": "Edit availability",
   "configure_availability": "Configure times when you are available for bookings.",
+  "upgrade": "Upgrade",
+  "select_upgrade_plan": "Select upgrade plan which suits your need",
   "copy_times_to": "Copy times to",
   "change_weekly_schedule": "Change your weekly schedule",
   "logo": "Logo",
