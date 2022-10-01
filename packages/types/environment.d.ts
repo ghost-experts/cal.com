@@ -35,6 +35,8 @@ declare namespace NodeJS {
     readonly CRON_API_KEY: string | undefined;
     readonly NEXT_PUBLIC_STRIPE_PUBLIC_KEY: string | undefined;
     readonly STRIPE_PRIVATE_KEY: string | undefined;
+    readonly NEXT_PUBLIC_STRIPE_P_KEY: string | undefined;
+    readonly STRIPE_S_KEY: string | undefined;
     readonly STRIPE_CLIENT_ID: string | undefined;
     readonly STRIPE_WEBHOOK_SECRET: string | undefined;
     readonly PAYMENT_FEE_PERCENTAGE: number | undefined;

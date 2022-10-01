@@ -19,6 +19,8 @@ const withTM = require("next-transpile-modules")([
 const { withAxiom } = require("next-axiom");
 const { i18n } = require("./next-i18next.config");
 
+if (!process.env.NEXT_PUBLIC_STRIPE_P_KEY) throw new Error("Please set NEXT_PUBLIC_STRIPE_P_KEY");
+
 if (!process.env.NEXTAUTH_SECRET) throw new Error("Please set NEXTAUTH_SECRET");
 if (!process.env.CALENDSO_ENCRYPTION_KEY) throw new Error("Please set CALENDSO_ENCRYPTION_KEY");
 
